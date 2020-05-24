@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovidBrasil.Api.Domain", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovidBrasil.Api.Application", "src\CovidBrasil.Api.Application\CovidBrasil.Api.Application.csproj", "{5079052F-FD96-4F89-AFE2-6EB0F9FC7185}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovidBrasil.Api.IoC", "src\CovidBrasil.Api.IoC\CovidBrasil.Api.IoC.csproj", "{19883543-080F-4DF7-83DB-DC6BF6DCE95D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,9 +48,22 @@ Global
 		{5079052F-FD96-4F89-AFE2-6EB0F9FC7185}.Release|x64.Build.0 = Release|Any CPU
 		{5079052F-FD96-4F89-AFE2-6EB0F9FC7185}.Release|x86.ActiveCfg = Release|Any CPU
 		{5079052F-FD96-4F89-AFE2-6EB0F9FC7185}.Release|x86.Build.0 = Release|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Debug|x64.Build.0 = Debug|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Debug|x86.Build.0 = Debug|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Release|x64.ActiveCfg = Release|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Release|x64.Build.0 = Release|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Release|x86.ActiveCfg = Release|Any CPU
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8E5D1471-D6AA-46D0-849C-4305382D5341} = {8AD314DC-1555-41E3-B37B-22994513646B}
 		{5079052F-FD96-4F89-AFE2-6EB0F9FC7185} = {8AD314DC-1555-41E3-B37B-22994513646B}
+		{19883543-080F-4DF7-83DB-DC6BF6DCE95D} = {8AD314DC-1555-41E3-B37B-22994513646B}
 	EndGlobalSection
 EndGlobal

@@ -15,12 +15,15 @@ namespace CovidBrasil.Api.Domain.Dataset
 
         public DateTime UpdatedAt { get; private set; } = DateTime.Now;
 
-        public ReadOnlyCollection<Register> Registers { get; private set; }
+        public ReadOnlyCollection<Register> Registers { 
+            get { return _registers.AsReadOnly(); }
+        }
 
         public Dataset(string sourceName, DateTime releasedDate)
         {
             SourceName = sourceName;
             ReleasedDate = releasedDate;
+            _registers = new List<Register>();
         }
 
         public void AddRegister(Register register)

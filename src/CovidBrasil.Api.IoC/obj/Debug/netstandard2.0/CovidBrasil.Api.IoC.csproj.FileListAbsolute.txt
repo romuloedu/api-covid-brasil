@@ -1,0 +1,14 @@
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/obj/Debug/netstandard2.0/CovidBrasil.Api.IoC.csprojAssemblyReference.cache
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/obj/Debug/netstandard2.0/CovidBrasil.Api.IoC.AssemblyInfoInputs.cache
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/obj/Debug/netstandard2.0/CovidBrasil.Api.IoC.AssemblyInfo.cs
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/obj/Debug/netstandard2.0/CovidBrasil.Api.IoC.csproj.CoreCompileInputs.cache
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/bin/Debug/netstandard2.0/CovidBrasil.Api.IoC.deps.json
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/bin/Debug/netstandard2.0/CovidBrasil.Api.IoC.dll
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/bin/Debug/netstandard2.0/CovidBrasil.Api.IoC.pdb
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/bin/Debug/netstandard2.0/CovidBrasil.Api.Application.dll
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/bin/Debug/netstandard2.0/CovidBrasil.Api.Domain.dll
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/bin/Debug/netstandard2.0/CovidBrasil.Api.Domain.pdb
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/bin/Debug/netstandard2.0/CovidBrasil.Api.Application.pdb
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/obj/Debug/netstandard2.0/CovidBrasil.Api.IoC.csproj.CopyComplete
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/obj/Debug/netstandard2.0/CovidBrasil.Api.IoC.dll
+/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/obj/Debug/netstandard2.0/CovidBrasil.Api.IoC.pdb

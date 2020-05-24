@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.Application/CovidBrasil.Api.Application.csproj": {}
+    "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/CovidBrasil.Api.IoC.csproj": {}
   },
   "projects": {
     "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.Application/CovidBrasil.Api.Application.csproj": {
@@ -97,6 +97,70 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/CovidBrasil.Api.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/CovidBrasil.Api.IoC.csproj",
+        "projectName": "CovidBrasil.Api.IoC",
+        "projectPath": "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/CovidBrasil.Api.IoC.csproj",
+        "packagesPath": "/Users/romuloeduardo/.nuget/packages/",
+        "outputPath": "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.IoC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/romuloeduardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.Application/CovidBrasil.Api.Application.csproj": {
+                "projectPath": "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.Application/CovidBrasil.Api.Application.csproj"
+              },
+              "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.Domain/CovidBrasil.Api.Domain.csproj": {
+                "projectPath": "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.Domain/CovidBrasil.Api.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
