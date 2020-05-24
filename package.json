@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "add-project": "dotnet new classlib -o ./src/CovidBrasil.Api.$PN",
+    "add-test-project": "dotnet new xunit -o ./test/CovidBrasil.Api.$PN.Tests",
+    "update-solution": "dotnet sln add */*/CovidBrasil.Api.$PN**"
+  }
+}

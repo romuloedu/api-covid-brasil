@@ -1,0 +1,36 @@
+@startuml Diagrama do Domínio
+
+abstract class BaseEntity {
+    #Id: guid
+}
+
+class Dataset {
+    -registers: IList<Register>
+    +SourceName: string
+    +ReleasedDate: datetime
+    +UpdatedAt: datetime
+    +Registers: IReadOnly<Register>
+    +AddRegister(Register register): void
+}
+
+class Register {
+    +DatasetId: guid
+    +Region: string
+    +State: string
+    +RegionId: int
+    +CityId: int
+    +HealthAreaId: int 
+    +HealthAreaName: string
+    +OcurrenceDate: datetime
+    +WeekNumEpi: int
+    +Population: double
+    +AccumulatedCases: int
+    +AccumulatedDeaths: int
+    +Recovered: int
+    +UnderObservation: int
+}
+
+BaseEntity <|-- Dataset
+Dataset "1" *-- "N" Register
+
+@enduml

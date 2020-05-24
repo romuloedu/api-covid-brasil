@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5dzQ4nZ28qFxB/GBwXOuN0AAGui4NYIgQ6KqadudP5xvNlHtTOY3yo3mcGOrprc4f6TBVHe3bhsd+3F4stl1sw==",
+  "success": true,
+  "projectFilePath": "/Users/romuloeduardo/Projects/api-covid-brasil/src/CovidBrasil.Api.Application/CovidBrasil.Api.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/romuloeduardo/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/romuloeduardo/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
